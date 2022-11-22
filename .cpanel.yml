@@ -1,0 +1,6 @@
+deployment:
+  tasks:
+    export DEPLOYPATH=/home/complet2/public_html/
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp css $DEPLOYPATH/
+    - bin/cp -R img $DEPLOYPATH
